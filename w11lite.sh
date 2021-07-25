@@ -24,6 +24,6 @@ clear
 echo Your RDP IP Address:
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo User: Administrator
-echo Password: akuh.net
+echo Password: Thuonghai001
 echo Do not close tab
 echo expired 1 hour
