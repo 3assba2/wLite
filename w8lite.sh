@@ -11,7 +11,7 @@ nohup ./ngrok tcp --region eu 30889 &>/dev/null &
 yum install sudo -y
 echo "Downloading QEMU"
 sudo yum install -y qemu-kvm
-wget -O lite81.qcow2 https://transfer.sh/1R7EBcC/lite81.qcow2
+wget https://bit.ly/akuhnetw8 -O lite81.qcow2
 availableRAMcommand="free -m | tail -2 | head -1 | awk '{print \$7}'"
 availableRAM=$(echo $availableRAMcommand | bash)
 custom_param_ram="-m "$(expr $availableRAM - 856 )"M"
